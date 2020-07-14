@@ -1,4 +1,4 @@
-rem Copyright [yyyy] [name of copyright owner]
+rem Copyright 2020 topet2k12001
 
 rem Licensed under the Apache License, Version 2.0 (the "License");
 rem you may not use this file except in compliance with the License.
