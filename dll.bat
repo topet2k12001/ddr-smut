@@ -1,3 +1,38 @@
+::[Bat To Exe Converter]
+::
+::YAwzoRdxOk+EWAjk
+::fBw5plQjdCyDJH6F+UcjFBxRTRbMNWi1Zg==
+::YAwzuBVtJxjWCl3EqQJgSA==
+::ZR4luwNxJguZRRnk
+::Yhs/ulQjdF+5
+::cxAkpRVqdFKZSDk=
+::cBs/ulQjdF+5
+::ZR41oxFsdFKZSTk=
+::eBoioBt6dFKZSDk=
+::cRo6pxp7LAbNWATEpCI=
+::egkzugNsPRvcWATEpCI=
+::dAsiuh18IRvcCxnZtBJQ
+::cRYluBh/LU+EWAnk
+::YxY4rhs+aU+IeA==
+::cxY6rQJ7JhzQF1fEqQJhZksaHErSXA==
+::ZQ05rAF9IBncCkqN+0xwdVsFAlTMbAs=
+::ZQ05rAF9IAHYFVzEqQIUBDcUfgGFNXiuA6d8
+::eg0/rx1wNQPfEVWB+kM9LVsJDCCuECuIA7IV+/z+/Yo=
+::fBEirQZwNQPfEVWB+kM9LVsJDACOMHm/AbwP/O3pjw==
+::cRolqwZ3JBvQF1fEqQICLRxdXxCHLnj6IpkwqO70/aqTqkhdU+Myfe8=
+::dhA7uBVwLU+EWFfL9SI=
+::YQ03rBFzNR3SWATE+g0xSA==
+::dhAmsQZ3MwfNWATE4E0gLQ8GR1XQbDvrZg==
+::ZQ0/vhVqMQ3MEVWAtB9wMR5HLA==
+::Zg8zqx1/OA3MEVWAtB9wJlRVLA==
+::dhA7pRFwIByZRRmKu0NQ
+::Zh4grVQjdCuDJGyX8VAjFDpaWAyNMnKGIrof/eX+4f6UnmA4c8MsYYHYmpCBN+4f5UTgZqoJ8kgauZlcTC5IehO/a08EqG1JinOKJcyVvQihTEGF41gMCGZmjnPEzC0ybNZ7pscP32675Eif
+::YB416Ek+ZW8=
+::
+::
+::978f952a14a936cc963da21a135fa983
+@echo off
+
 rem Copyright 2020 topet2k12001
 
 rem Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,83 +47,17 @@ rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 rem See the License for the specific language governing permissions and
 rem limitations under the License.
 
-@echo off
-
 rem register built-in DLLs from arcade data dump
 echo;
 echo Registering DLLs...
-ping localhost -n 3 > nul
 echo;
 echo | set /p dummyName=Registering k-clvsd.dll...
 regsvr32 /s com\k-clvsd.dll
-ping localhost -n 2 > nul
 echo done.
-ping localhost -n 1 > nul
 echo | set /p dummyName=Registering xactengine2_10.dll...
 regsvr32 /s com\xactengine2_10.dll
-ping localhost -n 2 > nul
-echo done.
-echo;
-ping localhost -n 1 > nul
-echo Setting up Bemanitools DLLs...
-ping localhost -n 3 > nul
-cls
-
-rem register DLLs from Bemanitools 5.31
-if /i %PROCESSOR_ARCHITECTURE% == amd64 goto 64bit
-if /i %PROCESSOR_ARCHITEW6432% == amd64 goto 64bit
-if /i %PROCESSOR_ARCHITECTURE% == x86 goto 32bit
-
-:64bit
-echo;
-echo System is running a 64-bit Operating System.
-echo;
-echo | set /p dummyName=Deleting existing copies of DLLs...
-del ddr*.dll > nul 2>&1
-del eamio.dll > nul 2>&1
-del geninput.dll > nul 2>&1
-del unicorntail.dll > nul 2>&1
-ping localhost -n 2 > nul
 echo done.
 ping localhost -n 2 > nul
-echo;
-echo | set /p dummyName=Copying 64-bit DLLs...
-ping localhost -n 2 > nul
-echo;
-7z e bemanitools_x64.7z
-echo;
-echo done.
-goto commonexit
-
-:32bit
-echo;
-echo Systm is running a 32-bit Operating System.
-echo;
-echo | set /p dummyName=Deleting existing copies of DLLs...
-del ddr*.dll > nul 2>&1
-del eamio.dll > nul 2>&1
-del geninput.dll > nul 2>&1
-del unicorntail.dll > nul 2>&1
-ping localhost -n 2 > nul
-echo done.
-ping localhost -n 2 > nul
-echo;
-echo | set /p dummyName=Copying 32-bit DLLs...
-ping localhost -n 2 > nul
-echo;
-7z e bemanitools_x86.7z
-echo;
-echo done.
-goto commonexit
-
-:commonexit
-echo;
-echo Exiting...
-del bemanitools_x64.7z > nul 2>&1
-del bemanitools_x75.7z > nul 2>&1
-del 7z.dll > nul 2>&1
-del 7z.exe > nul 2>&1
-ping localhost -n 5 > nul
 exit
 
 rem references:
