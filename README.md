@@ -168,21 +168,12 @@ Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
 **Other licenses**
 
-For those tools/utilities that are publicly available and therefore I am allowed to use and share publicly, the following are their URLs and respective licenses.
-
+Listed below are the publicly available tools/utilities used in this project, and their respective URLs/websites and links to the licenses.
 
 * [ffmpeg](https://ffmpeg.org/)
   * License: [GNU Lesser General Public License (LGPL) version 2.1](https://ffmpeg.org/legal.html)
-* [fart-it](http://fart-it.sourceforge.net/)
-  * License: GNU General Public License version 2.0 (GPLv2)
 * [NVIDIA DDS Utilities](https://developer.nvidia.com/legacy-texture-tools)
   * License: [License.pdf provided upon installation](https://github.com/topet2k12001/ddr-smut/blob/master/License.pdf)
-* [DirectX SDK](https://docs.microsoft.com/en-us/windows/win32/directx)
-  * License: none specified/found
-* [Command Line Calculator](https://cmdlinecalc.sourceforge.io/)
-  * License: GNU General Public License version 2.0 (GPLv2)
-* [butterfly](https://github.com/skogaby/butterfly)
-  * License: [Apache-2.0 License](https://github.com/skogaby/butterfly/blob/master/LICENSE)
 * [GNU sed for Windows]()
   * License: [GNU General Public License version 3](https://www.gnu.org/licenses/licenses.html)
 * [PHP](php.net)
@@ -191,12 +182,27 @@ For those tools/utilities that are publicly available and therefore I am allowed
   * License: [OTN License Agreement for Java SE](https://www.oracle.com/java/technologies/javase/jdk-faqs.html)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
   * License: [MIT License](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)
-
+* [RhythmCodex](https://github.com/SaxxonPike/RhythmCodex)
+  * License: [RhythmCodex License](https://github.com/SaxxonPike/RhythmCodex/blob/master/LICENSE.md)
+* [fart-it](http://fart-it.sourceforge.net/)
+  * License: GNU General Public License version 2.0 (GPLv2)
+* [Command Line Calculator](https://cmdlinecalc.sourceforge.io/)
+  * License: GNU General Public License version 2.0 (GPLv2)
+* [DirectX SDK](https://docs.microsoft.com/en-us/windows/win32/directx)
+  * License: none specified/found
+* [vgmstream](https://github.com/vgmstream/vgmstream)
+  * License: [COPYING](https://github.com/vgmstream/vgmstream/blob/master/COPYING)
+* [MAME](https://www.mamedev.org/release.php)
+  * License: [NU General Public License](https://github.com/mamedev/mame/blob/master/COPYING)
+* [ddr-tools](https://github.com/root670/ddr-tools)
+  * License: [MIT License](https://github.com/root670/ddr-tools/blob/master/LICENSE)
+* [Dance Dance Revolution SSQ Format](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/ddr/ssq.md)
+  * License: [LICENSE](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/LICENSE)
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+topet2k12001 - [@topet2k12001](https://twitter.com/topet2k12001) - https://github.com/topet2k12001
 
 Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/topet2k12001/ddr-smut)
 
@@ -205,12 +211,30 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+**Publicly available tools/utilities**
 
+* [ffmpeg](https://ffmpeg.org/)
+* [NVIDIA DDS Utilities](https://developer.nvidia.com/legacy-texture-tools)
+* [GNU sed for Windows]()
+* [PHP](php.net)
+* [Java](https://java.com/en/)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
+* [fart-it](http://fart-it.sourceforge.net/)
+* [Command Line Calculator](https://cmdlinecalc.sourceforge.io/)
+* [DirectX SDK](https://docs.microsoft.com/en-us/windows/win32/directx)
+* [vgmstream](https://github.com/vgmstream/vgmstream)
+* [MAME](https://www.mamedev.org/release.php)
+* [ddr-tools](https://github.com/root670/ddr-tools)
+* [Dance Dance Revolution SSQ Format](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/ddr/ssq.md)
 
+**Semipublicly available tools/utilities**
 
+* [ssqcheck](https://github.com/pumpCurry/ssqcheck)
+* ssqparse
+* ssqlib
+* ssqtool
+* arc_tools
+* banner_extractor
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -225,5 +249,5 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 [issues-url]: https://github.com/topet2k12001/ddr-smut/issues
 [license-shield]: https://img.shields.io/github/license/topet2k12001/ddr-smut.svg?style=for-the-badge
 [license-url]: https://github.com/topet2k12001/ddr-smut/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/topet2k12001
+<!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555 -->
+<!-- [linkedin-url]: https://linkedin.com/in/topet2k12001 -->
