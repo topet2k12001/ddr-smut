@@ -242,7 +242,7 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 * [Dance Dance Revolution SSQ Format](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/ddr/ssq.md)
 * The original [butterfly](https://github.com/skogaby/butterfly)
 
-**Semipublicly available tools/utilities**
+**Semipublicly available tools/utilities (credits to the authors of these wonderful tools/utilities!)**
 
 * [ssqcheck](https://github.com/pumpCurry/ssqcheck)
 * ssqparse
@@ -251,6 +251,15 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 * arc_tools
 * banner_extractor
 
+To the respective authors, kudos to your work! You're amazing!
+
+**People I want to especially thank**
+
+* tw3nz0r
+* T27|FOMZIE
+* skogaby
+
+You've inspired me and pushed me to, and beyond, my limitations. I never knew I could achieve such things. Thank you.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
