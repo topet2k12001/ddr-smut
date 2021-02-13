@@ -136,21 +136,30 @@ What I **CAN NOT** share/include are **semipublicly or privately available** too
 <!-- GETTING STARTED -->
 ## Getting Started
 
-**Latest version (v2.0.0 and beyond):**
-1. Download the `bin` folder. It contains the actual utilities/tools (note: I removed/excluded the **semipublicly/privately available** ones)
-2. Download the script (`.exe`) that interests you.
-3. Make sure that the script and the `bin` folder are in the same parent folder.
+**Latest version:**
+
+1. Download the `bin` folder as it contains the actual utilities/tools (but stripped of non-shareable ones)
+2. Download the script (`.exe` form) that interests you from the release tagged as ["Latest Release"](https://github.com/topet2k12001/ddr-smut/releases/latest)
+3. Make sure that the script and the `bin` folder are in the same parent folder
+4. You must source out the non-shareable utilities/tools and put them into the `bin` folder
 
 **Previous versions:**
-Simply go to the "Releases" section of this GitHub and just download the `.exe` file.
 
-Again, I am only sharing/including those that are **publicly available.** Expect the script to fail to function, or fail to fully function. You will have to source the **semipublicly or privately available** tools on your own.
+All previous versions are kept in the "Releases" section of this GitHub and are uploaded as/converted to Self-Extracting Zip Executables so they already contain a `bin` folder (but stripped of non-shareable utilities/tools).
+
+Releases tagged as ["Latest Release"](https://github.com/topet2k12001/ddr-smut/releases/latest) are in plain `.exe` form; **NOT** Self-Extracting Zips.
+
+Again, to reiterate: I am only sharing/including those that are **publicly available.** Expect the script to fail to function, or fail to fully function. You will have to source the **semipublicly or privately available** tools on your own.
 
 ### Prerequisites
 
 I try my best to avoid installation of additional programs/software by converting some of the tools/utilities. So unless advised in the instructions, there will be no prerequisites. If there will be prerequisites I will also advise accordingly in the instructions.
 
-As a **recommendation,** install [Python](https://www.python.org/) version 3.9 and [Java](https://java.com/en/) at least Java 8.
+As a **recommendation,** install the following:
+
+- [Python](https://www.python.org/) version 3.9
+- [Java](https://java.com/en/) at least Java 8
+- [PHP](https://windows.php.net/download/); use only versions that say **VC15** (latest version of VC15 build is [version 7.3.27](https://windows.php.net/downloads/releases/php-7.3.27-nts-Win32-VC15-x86.zip)) because I have tested builds based on **VC16** and the tool won't run on it
 
 **For Java:** optionally, I have pre-packaged Java which is in the `bin` folder so you won't need to install it anymore. Also if you do install a different version of Java, some of my scripts are still going to make use of the Java version that is packaged in the `bin` folder.
 
