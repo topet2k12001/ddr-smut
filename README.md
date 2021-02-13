@@ -87,14 +87,20 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+Working on modding DDR involves a lot of repetitive tasks/actions, so I automated them using "scripts" that cater to my own workflows/tasks. Time went on and I now have quite a number of these "scripts." I think it's about time to share them. :)
 
+This repository is all about sharing my actual automation scripts, and **NOT** the very tools/utilities that my scripts are automating.
+
+Therefore, I can share/include "publicly available" tools. When I say "publicly available" I mean, for example:
+* Open-source works (e.g. posted publicly in GitHub)
+* Works that are known to be publicly available (e.g. freeware, F.O.S.S.)
+  * aadfaf
+
+I can NOT share/include "semipublicly available" tools/utilities
 
 ### Built With
 
-* []()
+* [Batchfile](https://en.wikipedia.org/wiki/Batch_file)
 * []()
 * []()
 
@@ -103,7 +109,7 @@ Here's a blank template to get started:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running follow these simple steps. These are scripts that need the actual tools/utilities. Place the tools/utilities in the `bin` folder.
 
 ### Prerequisites
 
