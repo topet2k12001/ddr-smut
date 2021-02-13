@@ -248,7 +248,7 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 * [Dance Dance Revolution SSQ Format](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/ddr/ssq.md)
 * The original [butterfly](https://github.com/skogaby/butterfly)
 
-**Semipublicly available tools/utilities (credits to the authors of these wonderful tools/utilities!)**
+**Semipublicly available tools/utilities**
 
 * [ssqcheck](https://github.com/pumpCurry/ssqcheck)
 * ssqparse
