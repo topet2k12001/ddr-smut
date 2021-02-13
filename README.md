@@ -257,6 +257,7 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 * ssqlib
 * ssqtool
 * arc_tools
+* TN_JK utility
 * banner_extractor
 
 To the respective authors, kudos to your work! You're amazing!
