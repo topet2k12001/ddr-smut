@@ -176,8 +176,7 @@ For those tools/utilities that are publicly available and therefore I am allowed
 * [fart-it](http://fart-it.sourceforge.net/)
   * License: GNU General Public License version 2.0 (GPLv2)
 * [NVIDIA DDS Utilities](https://developer.nvidia.com/legacy-texture-tools)
-  * License: License.pdf provided upon installation
-  * Required to mention as per license: This software contains source code provided by NVIDIA Corporation.
+  * License: [License.pdf provided upon installation](https://github.com/topet2k12001/ddr-smut/blob/master/License.pdf)
 * [DirectX SDK](https://docs.microsoft.com/en-us/windows/win32/directx)
   * License: none specified/found
 * [Command Line Calculator](https://cmdlinecalc.sourceforge.io/)
