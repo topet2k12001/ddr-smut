@@ -98,13 +98,13 @@ I didn't make those sophisticated tools (and I'm amazed at the people behind the
 * make these wonderful scripts that help make modding so much fun and easier for me
 * learn how to extract/rip stuff (and find the "blocks" or "chunks" needed to be entered)
 * figuring out at a "layman's level" the highly-technical documents about SSQs and making a calculator out of it (I created a calculator that can tell me EXACTLY where/what to edit in hex, if you know what I mean)
-* so much more!
+* ...and so much more!
 
-In short, I have achieved "independence" at some level, in terms of doing all of this, at least to my satisfaction. :smile:
+In short, I have achieved "independence" at some level, in terms of doing all of this, at least to my satisfaction. I know that my "achievements" or "feats" may be trivial for those of you who have proper programming education/background, but I'm still proud of what I have accomplished given the odds. :smile:
 
-However, I don't see myself as doing this for an extended period of time. As I said, I'm not a programmer so this is not my passion. While it is true that now I can do all of this on my own IF/WHEN I want to, but at the end of the day I'm just another DDR Player wanting to play and I was just forced to learn all of this due to circumstances.
+On the other hand, I don't see myself as doing this for an extended period of time. As I said, I'm not a programmer so while this is fun, it is not my passion. Although it is true that now I can do all of this on my own IF/WHEN I want to, at the end of the day I'm just another DDR Player wanting to play and I was just forced to learn all of this due to circumstances.
 
-I am anticipating that my "real-world" busy life will be taking over my free time sooner or later...and with that said, I think the time is ripe for me to put this out to share.
+I am anticipating that my "real-world" busy life will be taking over my free time sooner or later. The "real-life" version of myself is a very busy person with no time for learning things like this. With that said, I think the time is ripe for me to put this out to share.
 
 **Project Proper**
 
