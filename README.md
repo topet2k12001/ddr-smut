@@ -187,9 +187,11 @@ For those tools/utilities that are publicly available and therefore I am allowed
 * [GNU sed for Windows]()
   * License: [GNU General Public License version 3](https://www.gnu.org/licenses/licenses.html)
 * [PHP](php.net)
-  * License: [PHP License ](https://github.com/php/php-src/blob/master/LICENSE)
+  * License: [PHP License](https://github.com/php/php-src/blob/master/LICENSE)
 * [Java](https://java.com/en/)
   * License: [OTN License Agreement for Java SE](https://www.oracle.com/java/technologies/javase/jdk-faqs.html)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
+  * License: [MIT License](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)
 
 
 <!-- CONTACT -->
