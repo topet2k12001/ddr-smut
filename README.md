@@ -110,66 +110,58 @@ I am anticipating that my "real-world" busy life will be taking over my free tim
 
 This repository is all about sharing my actual automation scripts, and **NOT** the very tools/utilities that my scripts are automating.
 
-I **CAN** share/include **publicly available** tools. When I say "publicly available" I mean, for example:
+***So far, the scripts currently uploaded are:***
+
+1. DDR F.U.C.K.S. (Fully Unified Converter of Known Songs)
+2. DDR S.E.X. ANALYZER (Stepchart Express Analyzer)
+3. DDR F.A.P. Tool (Final Audio Producer)
+
+There are a few more that I will be sharing; please bear with me.
+
+What I **CAN** share/include are **publicly available** tools. When I say "publicly available" I mean, for example:
 
 * Open-source works (e.g. posted publicly in GitHub **AND WITH** a license that allows for sharing)
 * Works that are known to be publicly available (e.g. freeware, F.O.S.S.)
 * Works where the respective author/s have given express permission to share publicly
 
-I **CAN NOT** share/include **semipublicly available** tools/utilities - **even if it means my scripts will not function or fully function**:
+What I **CAN NOT** share/include are **semipublicly or privately available** tools/utilities - **even if it means my scripts will fail to function or fail to fully function**:
 
-* Closed-source works (e.g. posted publicly in GitHub **AND WITHOUT** a license that allows for sharing)
-* Works that are known to be privately and/or semipublicly available (e.g. posted only in private forum sites)
-* Works where the respective author/s have given express permission to share publicly
+* Closed-source works (e.g. posted publicly in GitHub **AND WITHOUT** a license that allows for sharing, because works that have no license are treated by default as copyrighted/not for sharing)
+* Works that are known to be privately and/or semipublicly available (e.g. posted only in private forum sites and the like)
+* Works where the respective author/s have **NOT** given express permission to share publicly
 
 ### Built With
 
 * [Batchfile](https://en.wikipedia.org/wiki/Batch_file)
-* []()
-* []()
-
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps. These are scripts that need the actual tools/utilities. Place the tools/utilities in the `bin` folder.
+Simply download the script that interests you. Also download the `bin` folder. This folder holds the actual tools/utilities. Again, I am only sharing/including those that are **publicly available.** You will have to source the **semipublicly or privately available** tools on your own.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+I try my best to avoid installation of additional programs/software by converting some of the tools/utilities. So unless advised in the instructions, there will be no prerequisites. If there will be prerequisites I will also advise accordingly in the instructions.
+
+As a "recommendation," install [Python](https://www.python.org/) version 3.9 and [Java](https://java.com/en/) at least Java 8.
+
+**For Java:** optionally, I have pre-packaged Java which is in the `bin` folder so you won't need to install it anymore. Also if you do install a different version of Java, some of my scripts are still going to make use of the Java version that is packaged in the `bin` folder.
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/topet2k12001/ddr-smut.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
+There is no need to install my scripts; they are designed as "click-to-run."
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+I wrote my scripts in a manner that they will guide you through the process. Simply run and follow the on-screen instructions. :slightly_smiling_face:
 
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/topet2k12001/ddr-smut/issues) for a list of proposed features (and known issues).
-
 
 
 <!-- CONTRIBUTING -->
@@ -182,8 +174,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
 
 <!-- LICENSE -->
 ## License
@@ -230,8 +220,6 @@ topet2k12001 - [@topet2k12001](https://twitter.com/topet2k12001) - https://githu
 
 Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/topet2k12001/ddr-smut)
 
-
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
@@ -250,6 +238,7 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 * [MAME](https://www.mamedev.org/release.php)
 * [ddr-tools](https://github.com/root670/ddr-tools)
 * [Dance Dance Revolution SSQ Format](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/ddr/ssq.md)
+* [butterfly](https://github.com/skogaby/butterfly) by @skogaby (the original)
 
 **Semipublicly available tools/utilities**
 
