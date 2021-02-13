@@ -142,6 +142,8 @@ What I **CAN NOT** share/include are **semipublicly or privately available** too
 2. Download the script (`.exe`) that interests you.
 3. Make sure that the script and the `bin` folder are in the same parent folder.
 
+For convenience, simply go to the "Releases" section of this GitHub and just download the `.exe` file.
+
 Again, I am only sharing/including those that are **publicly available.** Expect the script to fail to function, or fail to fully function. You will have to source the **semipublicly or privately available** tools on your own.
 
 ### Prerequisites
