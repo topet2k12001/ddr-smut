@@ -145,7 +145,7 @@ What I **CAN NOT** share/include are **semipublicly or privately available** too
 
 **Previous versions:**
 
-All previous versions are kept in the "Releases" section of this GitHub and are uploaded as/converted to Self-Extracting Zip Executables so they already contain a `bin` folder (but stripped of non-shareable utilities/tools).
+All previous versions are kept in the ["Releases"](https://github.com/topet2k12001/ddr-smut/releases) section of this GitHub and are uploaded as/converted to Self-Extracting Zip Executables so they already contain a `bin` folder (but stripped of non-shareable utilities/tools).
 
 Releases tagged as ["Latest Release"](https://github.com/topet2k12001/ddr-smut/releases/latest) are in plain `.exe` form; **NOT** Self-Extracting Zips.
 
