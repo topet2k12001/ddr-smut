@@ -25,8 +25,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -36,10 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">DDR S.M.U.T.</h3>
 
   <p align="center">
-    project_description
+    DDR Scripts for Modding Utilities and Tools
     <br />
     <a href="https://github.com/topet2k12001/ddr-smut"><strong>Explore the docs »</strong></a>
     <br />
@@ -87,16 +85,35 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Working on modding DDR involves a lot of repetitive tasks/actions, so I automated them using "scripts" that cater to my own workflows/tasks. Time went on and I now have quite a number of these "scripts." I think it's about time to share them. :)
+**Background**
+
+Working on modding DDR involves a lot of repetitive tasks/actions involving diffrent utilities and tools, so I automated them using "scripts" that cater to my own workflows/tasks. Time went on and I now have quite a number of these "scripts." Doing all of this "modding work" isn't really something that I intended to do; it just so happened that COVID-19 came so the arcades are closed, and I was itching to really play the game. I got free time on my hands, so I stumbled upon website after website, forum after forum, and chat group after chat group...learning here and there.
+
+So here I am now! I could say that I've gone a long way for someone without a programming background (I'm VERY...VERY, GOOD at MS Excel though if that counts!).
+
+Modesty aside: I was able to fork, make some minor modifications, and build [my own local e-Amusement emulated server](https://github.com/topet2k12001/butterfly)...build RhythmCodex on my own (yes, the version that can produce the "file" in the "proper format" if you know what I mean)...make scripts...learn how to extract/rip stuff (and find the "blocks" or "chunks" needed to be entered)...figuring out at a "layman's level" the highly-technical documents about SSQs and making a calculator of sorts (I created a calculator that can tell me EXACTLY where/what to edit in hex, if you know what I mean). I didn't make those sophisticated tools (and I'm amazed at the people behind these tools!) but at least I got by and have my own mini-creations like these scripts.
+
+In short, I have achieved "independence" at some level, in terms of doing all of this, at least to my satisfaction. :smile:
+
+However, I don't see myself as doing this for an extended period of time. As I said, I'm not a programmer so this is not my passion. Yes, now I can do all of this on my own IF/WHEN I want to, but all I am, really, is just another DDR Player wanting to play and I was just forced to learn all of this due to circumstances.
+
+I am anticipating that my "real-world" busy life will be taking over my free time sooner or later...and with that said, I think the time is ripe for me to put this out to share.
+
+**Project Proper**
 
 This repository is all about sharing my actual automation scripts, and **NOT** the very tools/utilities that my scripts are automating.
 
-Therefore, I can share/include "publicly available" tools. When I say "publicly available" I mean, for example:
-* Open-source works (e.g. posted publicly in GitHub)
-* Works that are known to be publicly available (e.g. freeware, F.O.S.S.)
-  * aadfaf
+I **CAN** share/include **publicly available** tools. When I say "publicly available" I mean, for example:
 
-I can NOT share/include "semipublicly available" tools/utilities
+* Open-source works (e.g. posted publicly in GitHub **AND WITH** a license that allows for sharing)
+* Works that are known to be publicly available (e.g. freeware, F.O.S.S.)
+* Works where the respective author/s have given express permission to share publicly
+
+I **CAN NOT** share/include **semipublicly available** tools/utilities - **even if it means my scripts will not function or fully function**:
+
+* Closed-source works (e.g. posted publicly in GitHub **AND WITHOUT** a license that allows for sharing)
+* Works that are known to be privately and/or semipublicly available (e.g. posted only in private forum sites)
+* Works where the respective author/s have given express permission to share publicly
 
 ### Built With
 
@@ -249,5 +266,3 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 [issues-url]: https://github.com/topet2k12001/ddr-smut/issues
 [license-shield]: https://img.shields.io/github/license/topet2k12001/ddr-smut.svg?style=for-the-badge
 [license-url]: https://github.com/topet2k12001/ddr-smut/blob/master/LICENSE.txt
-<!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555 -->
-<!-- [linkedin-url]: https://linkedin.com/in/topet2k12001 -->
