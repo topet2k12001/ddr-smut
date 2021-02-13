@@ -83,8 +83,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 **Background**
 
 Working on modding DDR involves a lot of repetitive tasks/actions involving diffrent utilities and tools, so I automated them using "scripts" that cater to my own workflows/tasks. Time went on and I now have quite a number of these "scripts." Doing all of this "modding work" isn't really something that I intended to do; it just so happened that COVID-19 came so the arcades are closed, and I was itching to really play the game. I got free time on my hands, so I stumbled upon website after website, forum after forum, and chat group after chat group...learning here and there.
