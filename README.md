@@ -24,7 +24,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Apache License][license-shield]][license-url]
+[![Apache License 2.0][license-shield]][license-url]
 
 
 <!-- PROJECT LOGO -->
@@ -91,11 +91,18 @@ Working on modding DDR involves a lot of repetitive tasks/actions involving diff
 
 So here I am now! I could say that I've gone a long way for someone without a programming background (I'm VERY...VERY, GOOD at MS Excel though if that counts!).
 
-Modesty aside: I was able to fork, make some minor modifications, and build [my own local e-Amusement emulated server](https://github.com/topet2k12001/butterfly)...build RhythmCodex on my own (yes, the version that can produce the "file" in the "proper format" if you know what I mean)...make scripts...learn how to extract/rip stuff (and find the "blocks" or "chunks" needed to be entered)...figuring out at a "layman's level" the highly-technical documents about SSQs and making a calculator of sorts (I created a calculator that can tell me EXACTLY where/what to edit in hex, if you know what I mean). I didn't make those sophisticated tools (and I'm amazed at the people behind these tools!) but at least I got by and have my own mini-creations like these scripts.
+I didn't make those sophisticated tools (and I'm amazed at the people behind these tools!) but at least, modesty aside, I was able to:
+
+* fork, make some minor modifications, and build [my own local e-Amusement emulated server](https://github.com/topet2k12001/butterfly)
+* build RhythmCodex on my own (yes, the version that can produce the "file" in the "proper format" if you know what I mean)
+* make these wonderful scripts that help make modding so much fun and easier for me
+* learn how to extract/rip stuff (and find the "blocks" or "chunks" needed to be entered)
+* figuring out at a "layman's level" the highly-technical documents about SSQs and making a calculator out of it (I created a calculator that can tell me EXACTLY where/what to edit in hex, if you know what I mean)
+* so much more!
 
 In short, I have achieved "independence" at some level, in terms of doing all of this, at least to my satisfaction. :smile:
 
-However, I don't see myself as doing this for an extended period of time. As I said, I'm not a programmer so this is not my passion. Yes, now I can do all of this on my own IF/WHEN I want to, but all I am, really, is just another DDR Player wanting to play and I was just forced to learn all of this due to circumstances.
+However, I don't see myself as doing this for an extended period of time. As I said, I'm not a programmer so this is not my passion. While it is true that now I can do all of this on my own IF/WHEN I want to, but at the end of the day I'm just another DDR Player wanting to play and I was just forced to learn all of this due to circumstances.
 
 I am anticipating that my "real-world" busy life will be taking over my free time sooner or later...and with that said, I think the time is ripe for me to put this out to share.
 
