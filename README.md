@@ -24,7 +24,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![Apache License][license-shield]][license-url]
 
 
 <!-- PROJECT LOGO -->
@@ -265,4 +265,4 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 [issues-shield]: https://img.shields.io/github/issues/topet2k12001/ddr-smut.svg?style=for-the-badge
 [issues-url]: https://github.com/topet2k12001/ddr-smut/issues
 [license-shield]: https://img.shields.io/github/license/topet2k12001/ddr-smut.svg?style=for-the-badge
-[license-url]: https://github.com/topet2k12001/ddr-smut/blob/master/LICENSE.txt
+[license-url]: https://github.com/topet2k12001/ddr-smut/blob/master/LICENSE
