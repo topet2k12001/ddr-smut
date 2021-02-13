@@ -164,8 +164,32 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
+**Other licenses**
+
+For those tools/utilities that are publicly available and therefore I am allowed to use and share publicly, the following are their URLs and respective licenses.
+
+
+* [ffmpeg](https://ffmpeg.org/)
+  * License: [GNU Lesser General Public License (LGPL) version 2.1](https://ffmpeg.org/legal.html)
+* [fart-it](http://fart-it.sourceforge.net/)
+  * License: GNU General Public License version 2.0 (GPLv2)
+* [NVIDIA DDS Utilities](https://developer.nvidia.com/legacy-texture-tools)
+  * License: License.pdf provided upon installation
+  * Required to mention as per license: This software contains source code provided by NVIDIA Corporation.
+* [DirectX SDK](https://docs.microsoft.com/en-us/windows/win32/directx)
+  * License: none specified/found
+* [Command Line Calculator](https://cmdlinecalc.sourceforge.io/)
+  * License: GNU General Public License version 2.0 (GPLv2)
+* [butterfly](https://github.com/skogaby/butterfly)
+  * License: [Apache-2.0 License](https://github.com/skogaby/butterfly/blob/master/LICENSE)
+* [GNU sed for Windows]()
+  * License: [GNU General Public License version 3](https://www.gnu.org/licenses/licenses.html)
+* [PHP](php.net)
+  * License: [PHP License ](https://github.com/php/php-src/blob/master/LICENSE)
+* [Java](https://java.com/en/)
+  * License: [OTN License Agreement for Java SE](https://www.oracle.com/java/technologies/javase/jdk-faqs.html)
 
 
 <!-- CONTACT -->
