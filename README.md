@@ -197,7 +197,7 @@ Listed below are the publicly available tools/utilities used in this project, an
 * [ffmpeg](https://ffmpeg.org/)
   * License: [GNU Lesser General Public License (LGPL) version 2.1](https://ffmpeg.org/legal.html)
 * [NVIDIA DDS Utilities](https://developer.nvidia.com/legacy-texture-tools)
-  * License: [License.pdf provided upon installation](https://github.com/topet2k12001/ddr-smut/blob/master/License.pdf)
+  * License: [License.pdf provided upon installation](https://github.com/topet2k12001/ddr-smut/blob/master/nvidia.pdf)
 * [GNU sed for Windows]()
   * License: [GNU General Public License version 3](https://www.gnu.org/licenses/licenses.html)
 * [PHP](php.net)
