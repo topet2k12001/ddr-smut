@@ -199,24 +199,26 @@ Listed below are the publicly available tools/utilities used in this project, an
 * [RhythmCodex](https://github.com/SaxxonPike/RhythmCodex)
   * License: [RhythmCodex License](https://github.com/SaxxonPike/RhythmCodex/blob/master/LICENSE.md)
 * [fart-it](http://fart-it.sourceforge.net/)
-  * License: GNU General Public License version 2.0 (GPLv2)
+  * License: [GNU General Public License version 2.0 (GPLv2)](https://opensource.org/licenses/gpl-2.0.php)
 * [Command Line Calculator](https://cmdlinecalc.sourceforge.io/)
-  * License: GNU General Public License version 2.0 (GPLv2)
+  * License: [GNU General Public License version 2.0 (GPLv2)](https://opensource.org/licenses/gpl-2.0.php)
 * [DirectX SDK](https://docs.microsoft.com/en-us/windows/win32/directx)
   * License: none specified/found
 * [vgmstream](https://github.com/vgmstream/vgmstream)
   * License: [COPYING](https://github.com/vgmstream/vgmstream/blob/master/COPYING)
 * [MAME](https://www.mamedev.org/release.php)
-  * License: [NU General Public License](https://github.com/mamedev/mame/blob/master/COPYING)
+  * License: [GNU General Public License](https://github.com/mamedev/mame/blob/master/COPYING)
 * [ddr-tools](https://github.com/root670/ddr-tools)
   * License: [MIT License](https://github.com/root670/ddr-tools/blob/master/LICENSE)
 * [Dance Dance Revolution SSQ Format](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/ddr/ssq.md)
   * License: [LICENSE](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/LICENSE)
+* The original [butterfly](https://github.com/skogaby/butterfly)
+  * License: [Apache 2.0 License](https://github.com/skogaby/butterfly/blob/master/LICENSE)
 
 <!-- CONTACT -->
 ## Contact
 
-topet2k12001 - [@topet2k12001](https://twitter.com/topet2k12001) - https://github.com/topet2k12001
+topet2k12001 - [@topet2k12001](https://twitter.com/topet2k12001) - https://github.com/topet2k12001 - Discord: [topet2k12001#5211](https://discordapp.com/users/809335722539745360/) or [topet2k12001#5211](https://discord.com/channels/@me/809335722539745360)
 
 Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/topet2k12001/ddr-smut)
 
@@ -238,7 +240,7 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 * [MAME](https://www.mamedev.org/release.php)
 * [ddr-tools](https://github.com/root670/ddr-tools)
 * [Dance Dance Revolution SSQ Format](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/ddr/ssq.md)
-* [butterfly](https://github.com/skogaby/butterfly) by @skogaby (the original)
+* The original [butterfly](https://github.com/skogaby/butterfly)
 
 **Semipublicly available tools/utilities**
 
