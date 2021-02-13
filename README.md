@@ -59,6 +59,8 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#background-and-motivation-behind">Background and Motivation Behind</a></li>
+        <li><a href="#project-proper">Project Proper</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -83,7 +85,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-**Background**
+### Background and Motivation Behind
 
 Working on modding DDR involves a lot of repetitive tasks/actions involving diffrent utilities and tools, so I automated them using "scripts" that cater to my own workflows/tasks. Time went on and I now have quite a number of these "scripts." Doing all of this "modding work" isn't really something that I intended to do; it just so happened that COVID-19 came so the arcades are closed, and I was itching to really play the game. I got free time on my hands, so I stumbled upon website after website, forum after forum, and chat group after chat group...learning here and there.
 
@@ -104,15 +106,15 @@ On the other hand, I don't see myself as doing this for an extended period of ti
 
 I am anticipating that my "real-world" busy life will be taking over my free time sooner or later. The "real-life" version of myself is a very busy person with no time for learning things like this. With that said, I think the time is ripe for me to put this out to share.
 
-**Project Proper**
+### Project Proper
 
 This repository is all about sharing my actual automation scripts, and **NOT** the very tools/utilities that my scripts are automating.
 
 ***So far, the scripts currently uploaded are:***
 
-1. DDR F.U.C.K.S. (Fully Unified Converter of Known Songs)
-2. DDR S.E.X. ANALYZER (Stepchart Express Analyzer)
-3. DDR F.A.P. Tool (Final Audio Producer)
+1. **DDR F.U.C.K.S. (Fully Unified Converter of Known Songs):** end-to-end process automation of producing a file package for a song in DDR.
+2. **DDR S.E.X. ANALYZER (Stepchart Express Analyzer):** this is an automation script for analyzing DDR .ssq stepcharts.
+3. **DDR F.A.P. Tool (Final Audio Producer):** this is an automation script to automatically produce the "Final Audio" files (.xwb and .xsb) needed by DDR arcade data, without using the XACT GUI tool.
 
 There are a few more that I will be sharing; please bear with me.
 
