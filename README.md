@@ -142,9 +142,9 @@ What I **CAN NOT** share/include are **semipublicly or privately available** too
 
 1. Create a new folder where we will put the packages (keep the name simple without a space!)
 2. Download the `bin` folder [**HERE**](https://mega.nz/folder/dIlngIpK#4nwMwz0PNIZO37_hGISYpg) and put it inside the new folder you just created
-3. Download the script (`.exe`) that interests you or download them all if you want
-  - Latest version is stored in the main [Code](https://github.com/topet2k12001/ddr-smut) page/section
-  - Previous versions are stored in the [Releases](https://github.com/topet2k12001/ddr-smut/releases) page/section
+3. Download the 7zip Self-Extracting Executable bundle
+  - [Latest Release](https://github.com/topet2k12001/ddr-smut/releases/latest) page
+  - Previous versions are also stored in the [Releases](https://github.com/topet2k12001/ddr-smut/releases) page
 
 **Again, to reiterate:** I am only sharing/including those that are **publicly available.** Expect the script to fail to function, or fail to fully function. You will have to source the **semipublicly or privately available** tools on your own.
 
