@@ -85,7 +85,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-### Background and Motivation Behind
+### Background and Motivation
 
 Working on modding DDR involves a lot of repetitive tasks/actions involving diffrent utilities and tools, so I automated them using "scripts" that cater to my own workflows/tasks. Time went on and I now have quite a number of these "scripts." Doing all of this "modding work" isn't really something that I intended to do; it just so happened that COVID-19 came so the arcades are closed, and I was itching to really play the game. I got free time on my hands, so I stumbled upon website after website, forum after forum, and chat group after chat group...learning here and there.
 
@@ -118,17 +118,19 @@ This repository is all about sharing my actual automation scripts, and **NOT** t
 
 There are a few more that I will be sharing; please bear with me.
 
+#### Shareable Tools/Utilities
 What I **CAN** share/include are **publicly available** tools. When I say "publicly available" I mean, for example:
 
-* Open-source works (e.g. posted publicly in GitHub **AND WITH** a license that allows for sharing)
+* Open-source works (e.g. posted publicly in GitHub **AND WITH a license** that allows for sharing)
 * Works that are known to be publicly available (e.g. freeware, F.O.S.S.)
-* Works where the respective author/s have given express permission to share publicly
+* Works whose respective author/s have given express permission to share publicly
 
+#### Non-Shareable Tools/Utilities
 What I **CAN NOT** share/include are **semipublicly or privately available** tools/utilities - **even if it means my scripts will fail to function or fail to fully function**:
 
-* Closed-source works (e.g. posted publicly in GitHub **AND WITHOUT** a license that allows for sharing, because works that have no license are treated by default as copyrighted/not for sharing)
-* Works that are known to be privately and/or semipublicly available (e.g. posted only in private forum sites and the like)
-* Works where the respective author/s have **NOT** given express permission to share publicly
+* Closed-source and/or open-source works e.g. posted publicly in GitHub **BUT WITHOUT a license** (works that have no license are treated by default as copyrighted/not for sharing)
+* Works that are known to be privately and/or semipublicly available (e.g. posted and/or shared only in private forum sites and the like)
+* Works whose respective author/s have **NOT** given express permission to share publicly
 
 ### Built With
 
@@ -138,9 +140,11 @@ What I **CAN NOT** share/include are **semipublicly or privately available** too
 <!-- GETTING STARTED -->
 ## Getting Started
 
-**Latest version:**
+There are 2 basic components: the `bin` folder which houses all the tools/utilities...and the actual scripts that I wrote. The general idea is for your to create a folder, and you will put the `bin` folder and my scripts inside it.
 
-1. Download the `bin` folder as it contains the actual utilities/tools (but stripped of non-shareable ones)
+**Latest version of my scripts:**
+
+1. Download the `bin` folder from here as it contains the actual utilities/tools (but stripped of non-shareable ones)
 2. Download the script (`.exe` form) that interests you from the release tagged as ["Latest Release"](https://github.com/topet2k12001/ddr-smut/releases/latest)
 3. Make sure that the script and the `bin` folder are in the same parent folder
 4. You must source out the non-shareable utilities/tools and put them into the `bin` folder
@@ -219,8 +223,6 @@ Listed below are the publicly available tools/utilities used in this project, an
   * License: [GNU General Public License version 2.0 (GPLv2)](https://opensource.org/licenses/gpl-2.0.php)
 * [Command Line Calculator](https://cmdlinecalc.sourceforge.io/)
   * License: [GNU General Public License version 2.0 (GPLv2)](https://opensource.org/licenses/gpl-2.0.php)
-* [DirectX SDK](https://docs.microsoft.com/en-us/windows/win32/directx)
-  * License: none specified/found
 * [vgmstream](https://github.com/vgmstream/vgmstream)
   * License: [COPYING](https://github.com/vgmstream/vgmstream/blob/master/COPYING)
 * [MAME](https://www.mamedev.org/release.php)
@@ -250,9 +252,9 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 * [PHP](php.net)
 * [Java](https://java.com/en/)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
+* [RhythmCodex](https://github.com/SaxxonPike/RhythmCodex)
 * [fart-it](http://fart-it.sourceforge.net/)
 * [Command Line Calculator](https://cmdlinecalc.sourceforge.io/)
-* [DirectX SDK](https://docs.microsoft.com/en-us/windows/win32/directx)
 * [vgmstream](https://github.com/vgmstream/vgmstream)
 * [MAME](https://www.mamedev.org/release.php)
 * [ddr-tools](https://github.com/root670/ddr-tools)
