@@ -142,11 +142,14 @@ What I **CAN NOT** share/include are **semipublicly or privately available** too
 
 1. Create a new folder where we will put the packages (keep the name simple without a space!)
 2. Download the `bin` folder [**HERE**](https://mega.nz/folder/dIlngIpK#4nwMwz0PNIZO37_hGISYpg) and put it inside the new folder you just created
-3. Download the 7zip Self-Extracting Executable bundle
+3. Download the 7zip Self-Extracting Executable bundle and put it inside the new folder you just created, and double-click to automatically extract
   - [Latest Release](https://github.com/topet2k12001/ddr-smut/releases/latest) page
   - Previous versions are also stored in the [Releases](https://github.com/topet2k12001/ddr-smut/releases) page
 
-**Again, to reiterate:** I am only sharing/including those that are **publicly available.** Expect the script to fail to function, or fail to fully function. You will have to source the **semipublicly or privately available** tools on your own.
+**Again, to reiterate:**
+- I am only sharing/including those that are **publicly available.** Expect the script to fail to function, or fail to fully function.
+- You will have to source the **semipublicly or privately available** tools on your own.
+- Where there are sub-folders inside the `bin` folder that I shared, it means that the corresponding tool/utility has to be placed there.
 
 ### Prerequisites
 
@@ -158,8 +161,11 @@ I try my best to avoid installation of additional programs/software by convertin
 
 **Notes:**
 
-- **For PHP:** use only versions that say **VC15** (latest version of VC15 build is [version 7.3.27](https://windows.php.net/downloads/releases/php-7.3.27-nts-Win32-VC15-x86.zip)) because I have tested builds based on **VC16** and the tool won't run on it
+- **For PHP:** use only versions that say **VC15** (latest version of VC15 build is [version 7.3.27](https://windows.php.net/downloads/releases/php-7.3.27-nts-Win32-VC15-x86.zip)) because I have tested builds based on **VC16** and the tool won't run on it.
 - **For Java:** optionally, I have pre-packaged Java which is in the `bin` folder so you won't need to install it anymore. Also if you do install a different version of Java, some of my scripts are still going to make use of the Java version that is packaged in the `bin` folder.
+- **For Microsoft DirectX SDK:** [As per Microsoft,](https://docs.microsoft.com/en-us/windows/win32/directx-sdk--august-2009-)
+  - > The legacy DirectX SDK is no longer available for download from Microsoft Download Center per the retirement of all SHA-1 signed content.
+  - Hence you will have to source this on your own as well.
 
 ### Installation
 
