@@ -140,44 +140,35 @@ What I **CAN NOT** share/include are **semipublicly or privately available** too
 <!-- GETTING STARTED -->
 ## Getting Started
 
-There are 2 basic components: the `bin` folder which houses all the tools/utilities...and the actual scripts that I wrote. The general idea is for your to create a folder, and you will put the `bin` folder and my scripts inside it.
+1. Create a new folder where we will put the packages (keep the name simple without a space!)
+2. Download the `bin` folder [**HERE**](https://mega.nz/folder/dIlngIpK#4nwMwz0PNIZO37_hGISYpg) and put it inside the new folder you just created
+3. Download the script (`.exe`) that interests you or download them all if you want
+  - Latest version is stored in the main [Code](https://github.com/topet2k12001/ddr-smut) page/section
+  - Previous versions are stored in the [Releases](https://github.com/topet2k12001/ddr-smut/releases) page/section
 
-**Latest version of my scripts:**
-
-1. Download the `bin` folder from here as it contains the actual utilities/tools (but stripped of non-shareable ones)
-2. Download the script (`.exe` form) that interests you from the release tagged as ["Latest Release"](https://github.com/topet2k12001/ddr-smut/releases/latest)
-3. Make sure that the script and the `bin` folder are in the same parent folder
-4. You must source out the non-shareable utilities/tools and put them into the `bin` folder
-
-**Previous versions:**
-
-All previous versions are kept in the ["Releases"](https://github.com/topet2k12001/ddr-smut/releases) section of this GitHub and are uploaded as/converted to Self-Extracting Zip Executables so they already contain a `bin` folder (but stripped of non-shareable utilities/tools).
-
-Releases tagged as ["Latest Release"](https://github.com/topet2k12001/ddr-smut/releases/latest) are in plain `.exe` form; **NOT** Self-Extracting Zips.
-
-Again, to reiterate: I am only sharing/including those that are **publicly available.** Expect the script to fail to function, or fail to fully function. You will have to source the **semipublicly or privately available** tools on your own.
+**Again, to reiterate:** I am only sharing/including those that are **publicly available.** Expect the script to fail to function, or fail to fully function. You will have to source the **semipublicly or privately available** tools on your own.
 
 ### Prerequisites
 
-I try my best to avoid installation of additional programs/software by converting some of the tools/utilities. So unless advised in the instructions, there will be no prerequisites. If there will be prerequisites I will also advise accordingly in the instructions.
-
-As a **recommendation,** install the following:
+I try my best to avoid installation of additional programs/software by converting the tools/utilities whenever possible and practical. However, as a **recommendation,** install the following:
 
 - [Python](https://www.python.org/) version 3.9
 - [Java](https://java.com/en/) at least Java 8
-- [PHP](https://windows.php.net/download/); use only versions that say **VC15** (latest version of VC15 build is [version 7.3.27](https://windows.php.net/downloads/releases/php-7.3.27-nts-Win32-VC15-x86.zip)) because I have tested builds based on **VC16** and the tool won't run on it
+- [PHP](https://windows.php.net/download/) VC15 builds only
 
-**For Java:** optionally, I have pre-packaged Java which is in the `bin` folder so you won't need to install it anymore. Also if you do install a different version of Java, some of my scripts are still going to make use of the Java version that is packaged in the `bin` folder.
+**Notes:**
+
+- **For PHP:** use only versions that say **VC15** (latest version of VC15 build is [version 7.3.27](https://windows.php.net/downloads/releases/php-7.3.27-nts-Win32-VC15-x86.zip)) because I have tested builds based on **VC16** and the tool won't run on it
+- **For Java:** optionally, I have pre-packaged Java which is in the `bin` folder so you won't need to install it anymore. Also if you do install a different version of Java, some of my scripts are still going to make use of the Java version that is packaged in the `bin` folder.
 
 ### Installation
 
 There is no need to install my scripts; they are designed as "click-to-run."
 
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-I wrote my scripts in a manner that they will guide you through the process. Simply run and follow the on-screen instructions. :slightly_smiling_face:
+I generally write scripts in a manner that follows a "sequential" logic (e.g. Step 1, Step 2, etc.). Simply run and follow the on-screen instructions. :slightly_smiling_face:
 
 <!-- ROADMAP -->
 ## Roadmap
