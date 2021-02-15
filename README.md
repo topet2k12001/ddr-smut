@@ -59,7 +59,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#background-and-motivation-behind">Background and Motivation Behind</a></li>
+        <li><a href="#background-and-motivation">Background and Motivation</a></li>
         <li><a href="#project-proper">Project Proper</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -108,25 +108,25 @@ I am anticipating that my "real-world" busy life will be taking over my free tim
 
 ### Project Proper
 
-This repository is all about sharing my actual automation scripts, and **NOT** the very tools/utilities that my scripts are automating.
-
-***So far, the scripts currently uploaded are:***
+This repository is all about sharing my actual automation scripts, and **NOT** the very tools/utilities that my scripts are automating. So far, the scripts currently uploaded are:
 
 1. **DDR F.U.C.K.S. (Fully Unified Converter of Known Songs):** end-to-end process automation of producing a file package for a song in DDR.
-2. **DDR S.E.X. ANALYZER (Stepchart Express Analyzer):** this is an automation script for analyzing DDR .ssq stepcharts.
+2. **DDR S.E.X. ANALYZER (Stepchart Express Analyzer):** this is an automation script for analyzing DDR `.ssq` stepcharts.
 3. **DDR F.A.P. Tool (Final Audio Producer):** this is an automation script to automatically produce the "Final Audio" files (.xwb and .xsb) needed by DDR arcade data, without using the XACT GUI tool.
 
 There are a few more that I will be sharing; please bear with me.
 
 #### Shareable Tools/Utilities
-What I **CAN** share/include are **publicly available** tools. When I say "publicly available" I mean, for example:
+
+What I **CAN** share/include are **publicly available** tools. Examples are:
 
 * Open-source works (e.g. posted publicly in GitHub **AND WITH a license** that allows for sharing)
 * Works that are known to be publicly available (e.g. freeware, F.O.S.S.)
 * Works whose respective author/s have given express permission to share publicly
 
 #### Non-Shareable Tools/Utilities
-What I **CAN NOT** share/include are **semipublicly or privately available** tools/utilities - **even if it means my scripts will fail to function or fail to fully function**:
+
+What I **CAN NOT** share/include are **semipublicly or privately available** tools/utilities **even if it means my scripts will fail to function or fail to fully function** so you will need to source them on your own:
 
 * Closed-source and/or open-source works e.g. posted publicly in GitHub **BUT WITHOUT a license** (works that have no license are treated by default as copyrighted/not for sharing)
 * Works that are known to be privately and/or semipublicly available (e.g. posted and/or shared only in private forum sites and the like)
@@ -142,34 +142,41 @@ What I **CAN NOT** share/include are **semipublicly or privately available** too
 
 1. Create a new folder where we will put the packages (keep the name simple without a space!)
 2. Download the `bin` folder [**HERE**](https://mega.nz/folder/dIlngIpK#4nwMwz0PNIZO37_hGISYpg) and put it inside the new folder you just created
-3. Download the 7zip Self-Extracting Executable bundle and put it inside the new folder you just created, and double-click to automatically extract
+3. Download the script bundle (packaged as a 7zip Self-Extracting Executable) and put it inside the new folder you just created, and double-click to automatically extract. You can get the script bundle at the links below:
   - [Latest Release](https://github.com/topet2k12001/ddr-smut/releases/latest) page
-  - Previous versions are also stored in the [Releases](https://github.com/topet2k12001/ddr-smut/releases) page
-
-**Again, to reiterate:**
-- I am only sharing/including those that are **publicly available.** Expect the script to fail to function, or fail to fully function.
-- You will have to source the **semipublicly or privately available** tools on your own.
-- Where there are sub-folders inside the `bin` folder that I shared, it means that the corresponding tool/utility has to be placed there.
+  - [All Releases (link to previous and latest)](https://github.com/topet2k12001/ddr-smut/releases) page
 
 ### Prerequisites
 
-I try my best to avoid installation of additional programs/software by converting the tools/utilities whenever possible and practical. However, as a **recommendation,** install the following:
+#### Shareable Utilities and Tools
 
-- [Python](https://www.python.org/) version 3.9
-- [Java](https://java.com/en/) at least Java 8
-- [PHP](https://windows.php.net/download/) VC15 builds only
+I try my best to avoid installation of additional programs/software by converting the tools/utilities whenever possible and practical. I currently don't have any requirements/prerequisites **that need installation**.
 
 **Notes:**
 
-- **For PHP:** use only versions that say **VC15** (latest version of VC15 build is [version 7.3.27](https://windows.php.net/downloads/releases/php-7.3.27-nts-Win32-VC15-x86.zip)) because I have tested builds based on **VC16** and the tool won't run on it.
-- **For Java:** optionally, I have pre-packaged Java which is in the `bin` folder so you won't need to install it anymore. Also if you do install a different version of Java, some of my scripts are still going to make use of the Java version that is packaged in the `bin` folder.
-- **For Microsoft DirectX SDK:** [As per Microsoft,](https://docs.microsoft.com/en-us/windows/win32/directx-sdk--august-2009-)
+- **For Java:** I have already pre-packaged Java 8 Update 281 32-bit in the `bin` folder. Hence, installation is not necessary. If you have other programs/software that require Java, then you will still need to install Java.
+- **For PHP:** I have already included the latest VC15 build, [version 7.3.27](https://windows.php.net/downloads/releases/php-7.3.27-nts-Win32-VC15-x86.zip)), in the `bin` folder. Hence, installation is not necessary.
+- **For Python:** some future scripts that I will be adding may require Python. Install only when asked.
+
+#### Non-Shareable Utilities and Tools
+
+These are **required** to be included in the `bin` folder for my scripts to function or fully function; you have to source them on your own.
+
+- [ssqcheck](https://github.com/pumpCurry/ssqcheck)
+- ssqlib
+- ssqtool
+- arc_tools
+- XACT Command Line Tool
+
+**Notes:**
+
+- **XACT Command Line Tool:** [As per Microsoft,](https://docs.microsoft.com/en-us/windows/win32/directx-sdk--august-2009-)
   - > The legacy DirectX SDK is no longer available for download from Microsoft Download Center per the retirement of all SHA-1 signed content.
   - Hence you will have to source this on your own as well.
 
 ### Installation
 
-There is no need to install my scripts; they are designed as "click-to-run."
+Generally speaking, scripts are designed as "click-to-run" so there is no need to install my scripts.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -180,7 +187,6 @@ I generally write scripts in a manner that follows a "sequential" logic (e.g. St
 ## Roadmap
 
 See the [open issues](https://github.com/topet2k12001/ddr-smut/issues) for a list of proposed features (and known issues).
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -196,24 +202,24 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
+### Primary license
+
 Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
-**Other licenses**
+### Other licenses
 
-Listed below are the publicly available tools/utilities used in this project, and their respective URLs/websites and links to the licenses.
+Listed below are the publicly available tools/utilities used in this project, and their respective URLs/websites as well as links to the licenses.
 
 * [ffmpeg](https://ffmpeg.org/)
   * License: [GNU Lesser General Public License (LGPL) version 2.1](https://ffmpeg.org/legal.html)
 * [NVIDIA DDS Utilities](https://developer.nvidia.com/legacy-texture-tools)
   * License: [License.pdf provided upon installation](https://github.com/topet2k12001/ddr-smut/blob/master/nvidia.pdf)
-* [GNU sed for Windows]()
+* [GNU sed for Windows](http://gnuwin32.sourceforge.net/packages/sed.htm)
   * License: [GNU General Public License version 3](https://www.gnu.org/licenses/licenses.html)
 * [PHP](php.net)
   * License: [PHP License](https://github.com/php/php-src/blob/master/LICENSE)
 * [Java](https://java.com/en/)
   * License: [OTN License Agreement for Java SE](https://www.oracle.com/java/technologies/javase/jdk-faqs.html)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
-  * License: [MIT License](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)
 * [RhythmCodex](https://github.com/SaxxonPike/RhythmCodex)
   * License: [RhythmCodex License](https://github.com/SaxxonPike/RhythmCodex/blob/master/LICENSE.md)
 * [fart-it](http://fart-it.sourceforge.net/)
@@ -230,25 +236,48 @@ Listed below are the publicly available tools/utilities used in this project, an
   * License: [LICENSE](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/LICENSE)
 * The original [butterfly](https://github.com/skogaby/butterfly)
   * License: [Apache 2.0 License](https://github.com/skogaby/butterfly/blob/master/LICENSE)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
+  * License: [MIT License](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)
+* [E-mail Signature Social Icons](https://github.com/dmhendricks/signature-social-icons)
+  * License: [GPL-3.0 License](https://github.com/dmhendricks/signature-social-icons/blob/master/LICENSE)
 
 <!-- CONTACT -->
 ## Contact
 
-topet2k12001 - [@topet2k12001](https://twitter.com/topet2k12001) - https://github.com/topet2k12001 - Discord: [topet2k12001#5211](https://discordapp.com/users/809335722539745360/) or [topet2k12001#5211](https://discord.com/channels/@me/809335722539745360)
+### topet2k12001
 
-Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/topet2k12001/ddr-smut)
+<a href="https://github.com/topet2k12001/">
+  <img src="https://cdn.jsdelivr.net/gh/topet2k12001/signature-social-icons/icons/round-flat-filled/50px/github.png" alt="GitHub" title="GitHub" width="25" height="25" />
+</a>
+
+<a href="https://twitter.com/topet2k12001/">
+  <img src="https://cdn.jsdelivr.net/gh/topet2k12001/signature-social-icons/icons/round-flat-filled/50px/twitter.png" alt="Twitter" title="Twitter" width="25" height="25" />
+</a>
+
+<a href="https://discordapp.com/users/809335722539745360/">
+  <img src="https://cdn.jsdelivr.net/gh/topet2k12001/signature-social-icons/icons/round-flat-filled/50px/discord.png" alt="Discord" title="Discord" width="25" height="25" />
+</a>
+
+<a href="https://discord.com/channels/@me/809335722539745360/">
+  <img src="https://cdn.jsdelivr.net/gh/topet2k12001/signature-social-icons/icons/round-flat-filled/50px/discord.png" alt="Discord" title="Discord" width="25" height="25" />
+</a>
+
+### Project Link
+
+<a href="https://github.com/topet2k12001/ddr-smut/">
+  <img src="https://cdn.jsdelivr.net/gh/topet2k12001/signature-social-icons/icons/round-flat-filled/50px/github.png" alt="GitHub" title="ddr-smut" width="25" height="25" />
+</a>
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-**Publicly available tools/utilities**
+### Shareable tools/utilities (publicly available)
 
 * [ffmpeg](https://ffmpeg.org/)
 * [NVIDIA DDS Utilities](https://developer.nvidia.com/legacy-texture-tools)
-* [GNU sed for Windows]()
+* [GNU sed for Windows](http://gnuwin32.sourceforge.net/packages/sed.htm)
 * [PHP](php.net)
 * [Java](https://java.com/en/)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
 * [RhythmCodex](https://github.com/SaxxonPike/RhythmCodex)
 * [fart-it](http://fart-it.sourceforge.net/)
 * [Command Line Calculator](https://cmdlinecalc.sourceforge.io/)
@@ -257,8 +286,10 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 * [ddr-tools](https://github.com/root670/ddr-tools)
 * [Dance Dance Revolution SSQ Format](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/ddr/ssq.md)
 * The original [butterfly](https://github.com/skogaby/butterfly)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
+* [E-mail Signature Social Icons](https://github.com/dmhendricks/signature-social-icons)
 
-**Semipublicly available tools/utilities**
+### Non-shareable tools/utilities (semipublicly available)
 
 * [ssqcheck](https://github.com/pumpCurry/ssqcheck)
 * ssqparse
@@ -267,10 +298,11 @@ Project Link: [https://github.com/topet2k12001/ddr-smut](https://github.com/tope
 * arc_tools
 * TN_JK utility
 * banner_extractor
+* [Microsoft DirectX SDK](https://docs.microsoft.com/en-us/windows/win32/directx-sdk--august-2009-)
 
 To the respective authors, kudos to your work! You're amazing!
 
-**People I want to especially thank**
+### People I want to especially thank
 
 * tw3nz0r
 * T27|FOMZIE
