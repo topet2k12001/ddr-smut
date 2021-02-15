@@ -294,6 +294,7 @@ To the respective authors, kudos to your work! You're amazing!
 * tw3nz0r
 * T27|FOMZIE
 * skogaby
+* sirk
 
 You've inspired me and pushed me to, and beyond, my limitations. I never knew I could achieve such things. Thank you.
 
