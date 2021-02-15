@@ -170,9 +170,9 @@ These are **required** to be included in the `bin` folder for my scripts to func
 
 **Notes:**
 
-- **XACT Command Line Tool:** [As per Microsoft,](https://docs.microsoft.com/en-us/windows/win32/directx-sdk--august-2009-)
-  - > The legacy DirectX SDK is no longer available for download from Microsoft Download Center per the retirement of all SHA-1 signed content.
-  - Hence you will have to source this on your own as well.
+- **XACT Command Line Tool:** you will have to source this on your own. [As per Microsoft,](https://docs.microsoft.com/en-us/windows/win32/directx-sdk--august-2009-)
+  > The legacy DirectX SDK is no longer available for download from Microsoft Download Center per the retirement of all SHA-1 signed content.
+ 
 
 ### Installation
 
@@ -234,7 +234,7 @@ Listed below are the publicly available tools/utilities used in this project, an
   * License: [MIT License](https://github.com/root670/ddr-tools/blob/master/LICENSE)
 * [Dance Dance Revolution SSQ Format](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/ddr/ssq.md)
   * License: [LICENSE](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/LICENSE)
-* The original [butterfly](https://github.com/skogaby/butterfly)
+* [butterfly](https://github.com/skogaby/butterfly)
   * License: [Apache 2.0 License](https://github.com/skogaby/butterfly/blob/master/LICENSE)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
   * License: [MIT License](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)
@@ -285,7 +285,7 @@ Listed below are the publicly available tools/utilities used in this project, an
 * [MAME](https://www.mamedev.org/release.php)
 * [ddr-tools](https://github.com/root670/ddr-tools)
 * [Dance Dance Revolution SSQ Format](https://github.com/SaxxonPike/rhythm-game-formats/blob/master/ddr/ssq.md)
-* The original [butterfly](https://github.com/skogaby/butterfly)
+* [butterfly](https://github.com/skogaby/butterfly)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
 * [E-mail Signature Social Icons](https://github.com/dmhendricks/signature-social-icons)
 
