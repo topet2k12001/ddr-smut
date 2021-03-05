@@ -95,7 +95,7 @@ Working on modding DDR involves a lot of repetitive tasks/actions involving diff
   
   I didn't make those sophisticated tools (and I'm amazed at the people behind these tools!) but at least, modesty aside, I was able to:
   <ul>
-    <li>fork, make some minor modifications, and build [my own local e-Amusement emulated server](https://github.com/topet2k12001/butterfly)</li>
+    <li>fork, make some minor modifications, and build <a href="https://github.com/topet2k12001/butterfly">my own local e-Amusement emulated server</a></li>
     <li>build RhythmCodex on my own (yes, the version that can produce the "file" in the "proper format" if you know what I mean)</li>
     <li>make these wonderful scripts that help make modding so much fun and easier for me</li>
     <li>learn how to extract/rip stuff (and find the "blocks" or "chunks" needed to be entered)</li>
