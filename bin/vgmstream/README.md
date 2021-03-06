@@ -1,7 +1,21 @@
 # vgmstream
 
-This is vgmstream, a library for playing streamed (pre-recorded) audio
-from video games.
+This is vgmstream, a library for playing streamed (pre-recorded) audio from
+video games.
+
+Some of vgmstream's features:
+- hundreds of video game music formats and codecs, from typical game engine files to 
+  obscure single-game codecs, aiming for high accuracy and compatibility.
+- support for looped BGM, using file's internal metadata for smooth transitions,
+  with accurate sample counts
+- subsongs, playing internal songs separatedly
+- encryption keys, audio split in multiple files, internal stream names, and many
+  other unusual cases found in game audio
+- TXTH function, to support extra formats (including raw audio in many forms)
+- TXTP function, for real-time and per-file config (like forced looping, removing
+  channels, playing certain subsong, or fusing together multiple files as a single one)
+- simple external tagging via .m3u files
+- plugins available for various common players and O.S.
 
 There are multiple end-user bits:
 - a command line decoder called "test.exe/vgmstream-cli"
@@ -11,22 +25,23 @@ There are multiple end-user bits:
 - an Audacious plugin called "libvgmstream"
 - a command line player called "vgmstream123"
 
-Help and newest builds can be found here: https://www.hcs64.com/
+Help can be found here: https://www.hcs64.com/
 
-Latest development is usually here: https://github.com/losnoco/vgmstream/
-
-Latest releases are here: https://github.com/losnoco/vgmstream/releases
+Latest development is usually here: https://github.com/vgmstream/vgmstream/
 
 Automated builds with the latest changes: https://vgmstream.org/downloads
 
-You can find further info about other details in https://github.com/losnoco/vgmstream/tree/master/doc
+Releases are here: https://github.com/vgmstream/vgmstream/releases
+
+You can find further info about other details in https://github.com/vgmstream/vgmstream/tree/master/doc
+
 
 ## Needed extra files (for Windows)
 Support for some codecs (Ogg Vorbis, MPEG audio, etc) is done with external
 libraries, so you will need to have certain DLL files.
 
 In the case of the foobar2000 component they are all bundled for convenience,
-or you can get them here: https://github.com/losnoco/vgmstream/tree/master/ext_libs
+or you can get them here: https://github.com/vgmstream/vgmstream/tree/master/ext_libs
 (bundled here: https://f.losno.co/vgmstream-win32-deps.zip, may not be latest).
 
 Put the following files somewhere Windows can find them:
@@ -155,7 +170,7 @@ those files automatically into the playlist. For others without support, you can
 multiple .txtp (explained below) to select one of the subsongs (like `bgm.sxd#10.txtp`).
 
 You can use this python script to autogenerate one `.txtp` per subsong:
-https://github.com/losnoco/vgmstream/tree/master/cli/txtp_maker.py
+https://github.com/vgmstream/vgmstream/tree/master/cli/txtp_maker.py
 Put in the same dir as test.exe/vgmstream_cli, then to drag-and-drop files with
 subsongs to `txtp_maker.py` (it has CLI options to control output too).
 
@@ -193,10 +208,11 @@ Some plugins have options that allow any extension (common or unknown) to be
 played, making renaming unnecessary. You may need to adjust plugin priority in
 player's options first.
 
-Also be aware that some plugins can tell the player they handle some extension,
-then not actually play it. This makes the file unplayable as vgmstream doesn't
-even get the chance to parse that file, so you may need to disable the offending
-plugin or rename the file (for example this may happen with .asf and foobar).
+Also be aware that other plugins (not vgmstream's) can tell the player they
+handle some extension, then not actually play it. This makes the file unplayable
+as vgmstream doesn't even get the chance to parse that file, so you may need to
+disable the offending plugin or rename the file (for example this may happen with
+.asf and foobar2000).
 
 When extracting from a bigfile, sometimes internal files don't have an actual
 name+extension. Those should be renamed to its proper/common extension, as the
@@ -207,9 +223,10 @@ Note that vgmstream also accepts certain extension-less files too.
 
 ### Demuxed videos
 vgmstream also supports audio from videos, but usually must be demuxed (extracted
-without modification) first, since vgmstream doesn't attempt to support them.
+without modification) first, since vgmstream doesn't attempt to support most of them
+(it does support a few video formats as-is though).
 
-The easiest way to do this is using VGMToolBox's "Video Demultiplexer" option
+The easiest way to do this is using *VGMToolBox*'s "Video Demultiplexer" option
 for common game video formats (`.bik`, `.vp6`, `.pss`, `.pam`, `.pmf`, `.usm`, `.xmv`, etc).
 
 For standard videos formats (`.avi`, `.mp4`, `.webm`, `.m2v`, `.ogv`, etc) not supported
@@ -287,8 +304,8 @@ the only option is renaming the companion extension to lowercase.
 
 A particularly nasty variation of that is that some formats load files by full
 name (e.g. `STREAM.SS0`), but sometimes the actual filename is in other case
-(`Stream.ss0`), and some files could even point to that with another case. You
-could try adding *symlinks* in various upper/lower/mixed cases to handle this.
+(`Stream.ss0`), and some files could even point to that with yet another case.
+You could try adding *symlinks* in various upper/lower/mixed cases to handle this.
 Currently there isn't any way to know what exact name is needed (other than
 hex-editting), though only a few formats do this, mainly *Ubisoft* banks.
 
@@ -321,20 +338,24 @@ The key file can be `.(ext)key` (for the whole folder), or `(name).(ext)key"
 ### Artificial files
 In some cases a file only has raw data, while important header info (codec type,
 sample rate, channels, etc) is stored in the .exe or other hard to locate places.
+Or maybe the file plays normally, but has many layers at once that are silenced
+dynamically during gameplay, or looping metadata is stored externally.
 
-Those can be played using an artificial header with info vgmstream needs.
+Cases like those can be supported using an artificial files with info vgmstream
+needs.
 
 **GENH**: a byte header placed right before the original data, modyfing it.
 The resulting file must be `(name).genh`. Contains static header data.
-Programs like VGMToolbox can help to create *GENH*.
+Programs like VGMToolbox can help to create *GENH*, but consider using *TXTH*
+instead.
 
 **TXTH**: a text header placed in an external file. The TXTH must be named
 `.txth` or `.(ext).txth` (for the whole folder), or `(name.ext).txth` (for a
 single file). Contains dynamic text commands to read data from the original
-file, or static values.
+file, or static values. This allows vgmstream to play unsupported formats.
 
 *TXTH* is recommended over *GENH* as it's far easier to create and has many
-more functions.
+more functions, plus doesn't modify original data.
 
 For files that already play, sometimes they are used by the game in various
 complex and non-standard ways, like playing multiple small songs as a single
@@ -390,14 +411,16 @@ Some games layer a huge number of channels, that are disabled or downmixed
 during gameplay. The player may be unable to play those files (for example
 foobar can only play up to 8 channels, and Winamp depends on your sound
 card). For those files you can set the "downmix" option in vgmstream, that
-can reduce the number of channels to a playable amount. Note that this type
-of downmixing is very generic, not meant to be used when converting to other
-formats (channels are re-assigned and volumes modified in simplistic ways,
-since it can't guess how the file should be properly adjusted).
+can reduce the number of channels to a playable amount. 
+
+Note that this type of downmixing is very generic (not meant to be used when
+converting to other formats), channels are re-assigned and volumes modified
+in simplistic ways, since it can't guess how the file should be properly
+adjusted. Most likely it will sound a bit quieter than usual.
 
 You can also choose which channels to play using *TXTP*. For example, create
 a file named `song.adx#C1,2.txtp` to play only channels 1 and 2 from `song.adx`.
-*TXTP* also has command to tweak how files is downmixed.
+*TXTP* also has command to set how files are downmixed.
 
 
 ## Tagging
@@ -630,7 +653,7 @@ are used in few games.
 - Ubisoft 4/6-bit ADPCM
 - Tiger Game.com ADPCM
 - LucasArts iMUSE VBR ADPCM
-- CompressWave Huffman ADPCM
+- CompressWave (CWav) Huffman ADPCM
 - SDX2 2:1 Squareroot-Delta-Exact compression DPCM
 - CBD2 2:1 Cuberoot-Delta-Exact compression DPCM
 - Activision EXAKT SASSC DPCM
@@ -640,10 +663,11 @@ are used in few games.
 - Electronic Arts MicroTalk a.k.a. UTK or UMT
 - Relic Codec
 - CRI HCA
+- tri-Ace PS2 Codec
 - Xiph Vorbis (Ogg, FSB5, Wwise, OGL, Silicon Knights)
-- MPEG MP1/2/3 (standard, AHX, XVAG, FSB, AWC, P3D, etc)
-- ITU-T G.722.1 annex C (Polycom Siren 14)
-- ITU-T G.719 annex B (Polycom Siren 22)
+- MPEG MP1/2/3 (standard, AHX, XVAG, FSB, AWC, P3D, EA, etc)
+- ITU-T G.722.1 annex C a.k.a. Polycom Siren 14 (Namco)
+- ITU-T G.719 annex B a.k.a. Polycom Siren 22
 - Electronic Arts EASpeex
 - Electronic Arts EALayer3
 - Electronic Arts EA-XMA
